@@ -11,9 +11,9 @@ namespace ConsoleApp3
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Bem-vindo ao calcular de consumos gás/electricidada");
+            Console.WriteLine("Bem-vindo ao programa de cálculo de consumos gás/electricidade");
             Console.WriteLine("Deseja calcular o consumo de gás ou electricidade ?");
-            Console.WriteLine("Introduza G para gás e E para electricidade seguido de enter");
+            Console.WriteLine("Introduza G para gás e E para electricidade seguido da tecla enter");
             var opcao = Console.ReadLine();
 
             if (opcao == "E" || opcao == "e")
